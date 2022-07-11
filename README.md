@@ -15,6 +15,7 @@ On running the python file given in this repositry on Raspberry Pi with USB Webc
 detect the face and eye landmarks. Also detects the Iris position (tells whether the person is looking at center,right or left).
 Along with this, it also determines the number of people in the frame.
 
+The number of faces in the frame will be logged on to the database every 5 seconds.
 
 
 Referneces:
