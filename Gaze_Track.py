@@ -3,7 +3,7 @@ import numpy as np
 import mediapipe as mp
 import math
 import dlib
-
+from var import DB
 from imutils.video import VideoStream
 import datetime
 import argparse
@@ -17,7 +17,7 @@ ca=certifi.where()
 client=MongoClient()
   
 # Connect with the portnumber and host
-client = MongoClient('')
+client = MongoClient(DB)
 db=client.eye
 data=db.log
 ap = argparse.ArgumentParser()

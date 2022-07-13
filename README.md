@@ -4,12 +4,23 @@ This project is entirely set up on Raspberry Pi-3 model
 * Raspberry Pi 3 model B
 * USB webcam
 
+
 ## Installations:
 * Numpy
 * cv2
+* pymongo
 * Mediapipe (Using Mediapipe, I was able to detect multifaces in the frame in real time.)
 * Dlib( Click [here](https://youtu.be/uF4aDdxBm_M) to know how I installed Dlib on Raspberry Pi )
 * imutils
+
+### Set-up : 
+1. Go to [MongoDB](https://cloud.mongodb.com/) and configure a MongoDB Atlas cluter running, Setup the MongoDB cluster and copy the URI. ([Procedure](https://www.mongodb.com/docs/atlas/getting-started/))
+2. create **var.py**  file in the root folder and create variable DB and paste your MongoDB URI
+
+
+```javascript
+ DB = YOUR_URI_WITH_QUOTES
+```
 
 
 ### Mediapipe gives 468 facial landmarks. To locate iris posistion,it is required to note down the eye landmarks.
