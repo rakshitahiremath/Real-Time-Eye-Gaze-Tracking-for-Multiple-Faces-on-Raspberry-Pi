@@ -17,7 +17,7 @@ ca=certifi.where()
 client=MongoClient()
   
 # Connect with the portnumber and host
-client = MongoClient('mongodb://root:root@ac-ggutrlf-shard-00-00.ltueshq.mongodb.net:27017,ac-ggutrlf-shard-00-01.ltueshq.mongodb.net:27017,ac-ggutrlf-shard-00-02.ltueshq.mongodb.net:27017/?ssl=true&replicaSet=atlas-osry5t-shard-0&authSource=admin&retryWrites=true&w=majority',tls=True, tlsAllowInvalidCertificates=True)
+client = MongoClient('')
 db=client.eye
 data=db.log
 ap = argparse.ArgumentParser()
