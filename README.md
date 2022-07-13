@@ -11,6 +11,10 @@ This project is entirely set up on Raspberry Pi-3 model
 * Dlib( Click [here](https://youtu.be/uF4aDdxBm_M) to know how I installed Dlib on Raspberry Pi )
 * imutils
 
+
+### Mediapipe gives 468 facial landmarks. To locate iris posistion,it is required to note down the eye landmarks.
+![image](https://user-images.githubusercontent.com/59859182/178719145-e697ab6a-0538-4f7a-9c3f-733059c036df.png)
+
 On running the python file given in this repositry on Raspberry Pi with USB Webcam connected,I was able to 
 detect the face and eye landmarks. Also detects the Iris position (tells whether the person is looking at center,right or left).
 Along with this, it also determines the number of people in the frame.
