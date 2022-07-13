@@ -21,7 +21,7 @@ The number of faces in the frame will be logged on to the database every 5 secon
 <img src="https://user-images.githubusercontent.com/59859182/178708001-00b021f8-5034-441c-8e80-35cce4dd24df.jpg" width="800" height="400"/>
 
 #### Image 2- Below is the output in a scenario where there is only one face detected in the frame.
-<img src="https://user-images.githubusercontent.com/59859182/178712465-451bd7e7-2d1b-466c-b819-b9b99a1ac725.jpg" width="800" height="400"/>
+<img src="https://user-images.githubusercontent.com/59859182/178714480-1a30efd1-d725-4835-a78a-d145f30fa4a5.jpg" width="800" height="400"/>
 
 
 
